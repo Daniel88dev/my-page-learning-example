@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    height: 150px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.header > div > h4 {
+    margin-left: 10px;
+}
+
+.header div img {
+    width: 20px;
+    height: 20px;
+    color: white;
+    filter: invert(1);
+}
+
+.header {
+    display: block;
+    color: white;
+    margin-left: 24px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+}
+
+.name {
+    color: blueviolet;
+}
+
+#about-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box {
+    width: 780px;
+    margin: 48px;
+}
+
+#about-me p {
+    color: dimgray;
+}
+
+section h2 {
+    margin-left: 48px;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.skill-box {
+    border: 1px solid gray;
+    box-shadow: dimgray 2px 2px 2px 2px;
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.img-person {
+    width: 320px;
+    height: 400px;
+    margin: 80px;
+}
+
+.skill-box img {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+}
+
+.my-line {
+    width: 75%;
+    border: 0;
+    border-top: 1px solid #6e828f;
+    margin: 0 auto;
+}
+
+.project-item {
+    margin-left: 80px;
+}
+
+.recommend-container {
+    display: flex;
+}
+
+.recommend-box {
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+.recommend-box p {
+    margin: 8px;
+}
+
+.recommend-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.recommend-form h3 {
+    text-align: left;
+}
+
+.recommend-form input, textarea {
+    width: 450px;
+    margin: 8px;
+}
+
+.recommend-form button {
+    color: #8a2be2;
+    border: 1px solid blueviolet;
+    width: 140px;
+    height: 40px;
+    margin: 8px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.recommend-form button:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    bottom: 0;
+    width: 100%;
+}
